@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD HTML 4.01 Strict//EN' 'http://www.w3.org/TR/html4/strict.dtd'>
+<html>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+<title>在此插入标题</title>
+<style type="text/css">
+	
+#tryArea {
+	position: fixed;
+	right: 30px;
+	bottom: 0;
+	width: 280px;
+	height: 250px;
+}
+	
+</style>
+</head>
+<body>
+	<div id = "tryArea">
+		<canvas id="live2d" width="280" height="250">不支持canvas</canvas>
+	</div>
+	
+	<script src="./js/live2d.js"></script>
+	<script>
+		loadlive2d("live2d", "./model.json");
+	</script>
+	
+</body>
+</html>
